@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chez Charlotte!</title>
+    <link rel="stylesheet" href="crepeCss.css">
+</head>
+<body>
+    <div class="size">
+        <div class="cursor"></div>
+        <div class="vide">
+
+            <!-- Musique + boutton son ON/OFF -->
+            <img  type="button" class="img playpause" src="../../images/play.png">
+            <audio class ="bgm" autoplay loop>
+            <!-- Optimisation for differents navigator-->
+            <source src="../../audio/grandblue.mp3" type="audio/mpeg" />
+            <source src="../../audio/grandblue.ogg" type="audio/mpeg" />
+            </audio> 
+
+            <!-- Dialogue de Charlotte et gestion des bulles de discussion -->
+            <img class="mood" src="../../images/mood/talk.gif">
+            <img class="bubble" id="bubble" src="../../images/bubble/bubble1.png">
+        </div>
+        <div class="ustensile" id="ustensile">
+            <img class = "flour" src = "../../images/ingredient/flour.png">
+            <img class = "milk" src = "../../images/ingredient/milk.png">
+            <img class = "egg" src = "../../images/ingredient/egg1.png">
+            <img class = "sugar" src = "../../images/ingredient/sugar.png">
+            <img class = "bowl" src = "../../images/bowl/bol.png">
+            <img src="../../images/poele.png" id="poele" class="poele" width="500px" height="375px">
+            <img src="../../images/crepe/crepe1.png" id="crepe" class="crepe" width="200px" height="150px">
+        </div>
+    </div>
+    <script src="audio.js"></script>
+    <script src="cursor.js"></script>
+    <script src="cooking.js"></script>
+    <script src="keypress.js"></script>
+</body>
+</html>

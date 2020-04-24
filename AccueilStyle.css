@@ -1,0 +1,53 @@
+
+body {
+  background: url(images/kitchen.png); 
+}
+
+.main{
+  height: 500px;
+
+}
+
+.title{
+  position: absolute;
+  left: 200px;
+  height: 300px;
+  width: 400px;
+}
+
+.character{
+	position: absolute;
+  width: 330px;
+  top: 80px;
+  left: 600px;
+}
+
+.play{
+  position: absolute;
+  width: 175px;
+  left: 680px;
+  bottom: 35px;
+}
+
+.playpause{
+  position: absolute;
+  width: 10%;
+  top: 100px;
+  left: 1250px;
+}
+
+.block1{
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  top: 80px;
+  left: 600px;
+}
+
+.block2{
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  Top: 80px;
+  Left: 600px;
+}
